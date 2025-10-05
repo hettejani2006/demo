@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmic-Tales</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="phenomena.css" />
+    <link rel="stylesheet" href="story.css" />
+  </head>
+
+  <body>
+    <!-- loader -->
+    <div class="loader"></div>
+    <!-- upScroller -->
+    <div class="upScroller"><i class="fa-solid fa-arrow-up"></i></div>
+    <!-- Clicking the CTA button -->
+    <div class="homeContainer section">
+      <nav class="navbar">
+        <div class="navbarContent">
+          <div class="logo">Cosmic<span>Tales</span></div>
+          <ul>
+            <li class="events">Events</li>
+            <li class="quiz">Quiz</li>
+            <li class="glossary">Glossary</li>
+            <li class="learnMore">Learn More</li>
+            <li class="aboutUs">About Us</li>
+            <li class="menuBtn"><i class="fa-solid fa-bars"></i></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="sidebar">
+        <ul>
+          <li class="events">
+            <span><i class="fa-solid fa-sun"></i></span> <span>Events</span>
+          </li>
+          <li class="quiz">
+            <span><i class="fa-solid fa-question-circle"></i></span>
+            <span>Quiz</span>
+          </li>
+          <li class="glossary">
+            <span><i class="fa-solid fa-book"></i></span> <span>Glossary</span>
+          </li>
+          <li class="learnMore">
+            <span><i class="fa-solid fa-lightbulb"></i></span>
+            <span>Learn More</span>
+          </li>
+          <li class="aboutUs">
+            <span><i class="fa-solid fa-users"></i></span> <span>About Us</span>
+          </li>
+        </ul>
+      </div>
+      <!-- <button class="goChar">
+        <i class="fa-solid fa-user"></i><span>Reselect a character</span>
+      </button> -->
+      <div class="storyContainer cont">
+        <!-- For Solar Flare -->
+        <div class="astronautAlexContainer myStory">
+          <img
+            src="Elements/SolarFlare/AstronautAlex/ele_sun_2.png"
+            alt=""
+            class="sun"
+          />
+          <img
+            src="Elements/SolarFlare/AstronautAlex/ele_earth.png"
+            alt=""
+            class="earth"
+          />
+          <img
+            src="Elements/SolarFlare/AstronautAlex/ch_commander_riya_in_observatory.png"
+            alt=""
+            class="observatory"
+          />
+          <div class="spacecraftContainer">
+            <img
+              src="Elements/SolarFlare/AstronautAlex/ch_alex_in_spacecraft.png"
+              alt=""
+              class="spacecraft"
+            />
+          </div>
+        </div>
+        <div class="photographerNishitaContainer myStory">
+          <img
+            src="Elements/SolarFlare/PhotographerNishita/ch_tara.png"
+            alt=""
+            class="tara"
+          />
+          <img
+            src="Elements/SolarFlare/PhotographerNishita/ch_nishita.png"
+            alt=""
+            class="nishita"
+          />
+        </div>
+        <div class="captainMarco myStory">
+          <img src="Elements/SolarFlare/CaptainMarco/ele_ship.png" alt="" />
+        </div>
+        <div class="pilotPriyaContainer myStory">
+          <img
+            src="Elements/SolarFlare/PilotPriya/officer_nila-Photoroom.png"
+            alt=""
+            class="ATC"
+          />
+          <img
+            src="Elements/SolarFlare/PilotPriya/pilot_priya-Photoroom.png"
+            alt=""
+            class="plane"
+          />
+        </div>
+
+        <!-- For CME -->
+        <div class="quantumContainer myStory">
+          <img
+            src="elements/CME/QuantumCommSpecialist/nisha.png"
+            alt=""
+            class="nisha"
+          />
+          <img
+            src="elements/CME/QuantumCommSpecialist/chahat.png"
+            alt=""
+            class="chahat"
+          />
+        </div>
+        <div class="farmerContainer myStory">
+          <img
+            src="elements/CME/FarmerFarah/vatsal.png"
+            alt=""
+            class="vatsal"
+          />
+          <img src="elements/CME/FarmerFarah/farah.png" alt="" class="farah" />
+        </div>
+        <div class="elecEnggContainer myStory">
+          <img src="elements/CME/ElecEnggHet/ch_het.png" alt="" class="het" />
+          <img
+            src="elements/CME/ElecEnggHet/ch_nisha.png"
+            alt=""
+            class="nisha"
+          />
+        </div>
+        <div class="astroArjunContainer myStory">
+          <img
+            src="elements/CME/AstronautArjun/ch_arjun.png"
+            alt=""
+            class="arjun"
+          />
+          <img
+            src="elements/CME/AstronautArjun/ch_anika.png"
+            alt=""
+            class="anika"
+          />
+        </div>
+
+        <!-- Story for SEP:- Balloon scientist -->
+        <div class="balloonContainer myStory">
+          <img
+            src="Elements/SEP/BalloonScientist/ch_sana.png"
+            alt=""
+            class="sana"
+          />
+          <img
+            src="Elements/SEP/BalloonScientist/ch_abrar.png"
+            alt=""
+            class="abrar"
+          />
+        </div>
+        <!-- For glacier researcher -->
+        <div class="glacierContainer myStory">
+          <img
+            src="Elements/SEP/GlacierResearcher/ch_lina.png"
+            alt=""
+            class="lina"
+          />
+          <img
+            src="Elements/SEP/GlacierResearcher/ch_omar.png"
+            alt=""
+            class="omar"
+          />
+        </div>
+        <!-- space botanist container -->
+        <div class="spaceBotanistContainer myStory">
+          <img
+            src="Elements/SEP/SpaceStationBotanist/ch_leela.png"
+            alt=""
+            class="leela"
+          />
+          <img
+            src="Elements/SEP/SpaceStationBotanist/ch_raj.png"
+            alt=""
+            class="raj"
+          />
+        </div>
+        <!-- astro anika -->
+        <div class="astroAnikaContainer myStory">
+          <img
+            src="Elements/SEP/AstronautAnika/ch_AstroAnika_2.png"
+            alt=""
+            class="anika"
+          />
+          <img
+            src="Elements/SEP/AstronautAnika/ch_charac2.png"
+            alt=""
+            class="missionControl"
+          />
+        </div>
+        <!-- For story 1 Solar wind:- Satellite Sam -->
+        <div class="satelliteSamContainer myStory">
+          <div class="earthstory1">
+            <img
+              src="Elements/solar wind/professormira.png"
+              alt="earth with professor mira"
+              width="300px"
+              height="auto"
+            />
+          </div>
+          <div class="satelliteContainer">
+            <div class="sam">
+              <img
+                src="Elements/solar wind/Satellite Sam.png"
+                alt="satellite sam"
+                width="250px"
+                height="auto"
+              />
+            </div>
+          </div>
+          <div class="solarstrom">
+            <img
+              src="Elements/solar wind/solar strom in story 1.png"
+              alt="solar strom"
+              width="900px"
+              height="auto"
+            />
+          </div>
+        </div>
+
+        <!-- For story 2  Solar wind:- astronomer amy -->
+        <div class="astronomerAmyContainer myStory">
+          <div class="earthstory2">
+            <img
+              src="Elements/solar wind/Astronomer amy.png"
+              alt="Astronomer amy with his assistant leo and his senior professor vega"
+              width="300px"
+              height="auto"
+            />
+          </div>
+          <div class="sun2">
+            <img
+              src="Elements/solar wind/solar strom in story 1.png"
+              alt="sun"
+              width="900px"
+              height="auto"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- For story 3  Solar wind:- marine biologist draisha -->
+      <div class="marineBiologistAishaContainer myStory">
+        <div class="draisha">
+          <img
+            src="Elements/solar wind/dr.aisha.png"
+            alt="photo of dr aisha"
+            width="auto"
+            height="300px"
+          />
+        </div>
+        <div class="ravi">
+          <img
+            src="Elements/solar wind/ravi(technician).png"
+            alt="photo of ravi technician"
+            width="auto"
+            height="300px"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Chatbot Floating Button -->
+    <a href="chatbot.html" class="chatbot-btn" title="Chatbot">
+      <i class="fa-solid fa-robot"></i>
+      <span class="chatbot-label">Chatbot</span>
+    </a>
+    <script src="phenomena.js"></script>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      let storyName = params.get("story");
+      const paramss = new URLSearchParams(window.location.search);
+      let storyname = paramss.get("story");
+      const bgImage = params.get("bg");
+      // Hide all story divs initially
+      document
+        .querySelectorAll(".myStory")
+        .forEach((div) => (div.style.display = "none"));
+      // Show only the selected story
+      if(storyName) {
+        let storyDiv = document.querySelector(`.${storyname}`);
+        if (storyDiv) storyDiv.style.display = "flex";
+        storyDiv = document.querySelector(`.${storyName}`);
+        if(storyDiv) storyDiv.style.display = "flex";
+      }
+      if(bgImage) {
+        document.querySelector(
+          ".storyContainer"
+        ).style.backgroundImage = `url(${bgImage})`;
+      }
+    </script>
+  </body>
+</html>
