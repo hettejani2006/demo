@@ -1,0 +1,57 @@
+.referencesContainer {
+  /* starry dark feel */
+  color: #fff;
+  border-top: 2px solid #444;
+  text-align: left;
+  padding: 20px;
+  animation: fade-in 1s forwards;
+  position: relative;
+  z-index: 5;
+}
+
+.referencesContainer h3 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #2fa2cf;
+}
+
+.referencesContainer h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.referencesContainer p {
+  font-size: 1.25rem;
+}
+
+.referencesContainer ul {
+  list-style: inside;
+  max-width: 700px;
+  padding-left: 0;
+  margin-left: 10px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.referencesContainer li {
+  margin: auto;
+  padding-left: 0%;
+  font-size: 1rem;
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+.referencesContainer a {
+  color: #00d9ff;
+  text-decoration: none;
+}
+
+.referencesContainer a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .referencesContainer {
+    animation: none;
+  }
+}
